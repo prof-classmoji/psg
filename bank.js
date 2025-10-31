@@ -5,6 +5,10 @@ class BankAccount {
     this.balance = initialBalance;
   }
 
+  print() { 
+    console.log("Hello bank")
+  }
+
   deposit(amount) {
     this.balance += amount;
     return `Deposited $${amount}. New balance: $${this.balance}`;
