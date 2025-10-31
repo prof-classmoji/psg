@@ -21,7 +21,7 @@ class Rectangle {
   }
 
   print() { 
-    console.log("Hello rectangle")
+    console.log("Hello rectangle yes sir neew one")
   }
 }
 
