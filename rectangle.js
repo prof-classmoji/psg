@@ -11,7 +11,10 @@ class Rectangle {
   }
 
   getPerimeter() {
-    return 2 * (this.width + this.height);
+    console.log("Conflict");
+  }
+
+  haha(){
   }
 
   scale(factor) {
