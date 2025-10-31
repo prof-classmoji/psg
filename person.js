@@ -6,6 +6,7 @@ class Person {
   }
 
   introduce() {
+    console.log("Change again");
     return `Hi, I'm ${this.name} and I'm ${this.age} years old.`;
   }
 
