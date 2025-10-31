@@ -9,6 +9,10 @@ class Person {
     return `Hi, I'm ${this.name} and I'm ${this.age} years old.`;
   }
 
+  print() { 
+    console.log("Hello person")
+  }
+
   haveBirthday() {
     this.age++;
     return `Happy birthday! Now ${this.age} years old.`;
