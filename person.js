@@ -1,3 +1,4 @@
+// Class 1: Person - Represents a person with basic info
 class Person {
   constructor(name, age) {
     this.name = name;
