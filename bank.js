@@ -15,6 +15,10 @@ class BankAccount {
     return `Deposited $${amount}. New balance: $${this.balance}`;
   }
 
+  getBalancePpape() {
+    return `Current balance: $${this.balance}`;
+  }
+
   withdraw(amount) {
     if (amount > this.balance) {
       return "Insufficient funds!";
