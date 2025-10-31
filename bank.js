@@ -27,6 +27,12 @@ class BankAccount {
     return `Withdrew $${amount}. New balance: $${this.balance}`;
   }
 
+  amIBroke(){
+    if(this.balance < 0){
+      console.log("Lmao");
+    }
+  }
+
   getBalance() {
     return `Current balance: $${this.balance}`;
   }
