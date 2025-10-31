@@ -1,7 +1,7 @@
 // Class 2: BankAccount - Manages a simple bank account
 class BankAccount {
-  constructor(accountHolder, initialBalance = 0) {
-    this.accountHolder = accountHolder;
+  constructor(accountHolderName, initialBalance = 0) {
+    this.accountHolder = accountHolderName;
     this.balance = initialBalance;
   }
 
