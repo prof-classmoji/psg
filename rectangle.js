@@ -18,6 +18,10 @@ class Rectangle {
     this.height *= factor;
     return `Scaled by ${factor}x. New dimensions: ${this.width} x ${this.height}`;
   }
+
+  print() { 
+    console.log("Hello rectangle")
+  }
 }
 
 // Example usage:
