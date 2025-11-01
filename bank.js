@@ -6,7 +6,7 @@ class BankAccount {
   }
 
   print() { 
-    console.log("Change this line")
+    console.log("Do not overwrit me")
     console.log("Something else")
     console.log("Hello bank")
     console.log("Something else")
