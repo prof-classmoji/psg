@@ -8,6 +8,8 @@ class BankAccount {
   print() { 
     console.log("Hello bank")
     console.log("Something else")
+    console.log("Hello bank")
+    console.log("Something else")
   }
 
   deposit(amount) {
