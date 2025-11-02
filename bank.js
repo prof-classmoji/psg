@@ -6,10 +6,7 @@ class BankAccount {
   }
 
   print() { 
-    console.log("Do not overwrit me")
-    console.log("Something else")
-    console.log("Hello bank")
-    console.log("Something else")
+    const name = "Pape Sow Traore";
   }
 
   deposit(amount) {
