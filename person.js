@@ -12,6 +12,7 @@ class Person {
 
   print() { 
     console.log("Hello person")
+    const last = "maybe it is fine";
   }
 
   haveBirthday() {
