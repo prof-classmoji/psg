@@ -6,7 +6,7 @@ class BankAccount {
   }
 
   print() { 
-    const name = "Pape Sow Traore";
+    const name = "Bakary Traore";
   }
 
   deposit(amount) {
