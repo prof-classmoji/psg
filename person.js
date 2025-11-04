@@ -20,3 +20,5 @@ class Person {
     return `Happy birthday! Now 25 years old.`;
   }
 }
+
+console.log();
